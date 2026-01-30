@@ -1,7 +1,6 @@
 require 'spec_helper'
 require 'apple_music/connection'
 require 'faraday'
-require 'faraday_middleware'
 
 RSpec.describe AppleMusic do
   subject { described_class }
